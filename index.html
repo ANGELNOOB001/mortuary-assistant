@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mortuary Assistant - 業務記録</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#top">TOP</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#characters">CHARACTERS</a></li>
+            <li><a href="#embalming">EMBALMING</a></li>
+            <li><a href="#exorcism">EXORCISM</a></li>
+            <li><a href="#possession">POSSESSION</a></li>
+            <li><a href="#demons">DEMONS</a></li>
+            <li><a href="#endings">ENDINGS</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="top">
+        <h1>THE MORTUARY ASSISTANT</h1>
+        <p class="tagline">死体は語らず、悪魔は囁く。</p>
+    </header>
+
+    <main>
+        <section id="story" class="story-section">
+            <h2 class="section-title">STORY</h2>
+            <div class="content">
+                <p>舞台はコネチカット州、リバー・フィールズ葬儀場。</p>
+                <p>主人公<strong>レベッカ・オーウェンズ</strong>は、葬儀助手としてのキャリアを歩み始めたばかりだった。</p>
+                <p>しかし、ある深夜のシフト。彼女は事務所に閉じ込められ、オーナーのレイモンドは衝撃の事実を告げる。</p>
+                <blockquote>
+                    「ここにある遺体の一つには、悪魔が取り憑いている。朝までにそれを見つけ出し、正しく処理しなければ、お前は取り込まれることになるだろう。」
+                </blockquote>
+                <p>彼女は、迫りくる怪奇現象に耐えながら、メスを握り、悪魔の名を特定しなければならない。</p>
+            </div>
+
+            <div class="video-container">
+                <h3 class="video-title">WATCH OFFICIAL TRAILER</h3>
+                <a href="https://www.youtube.com/watch?v=VQp7HyQZQ5w" target="_blank" rel="noopener" class="video-link">
+                    <div class="video-preview">
+                        <!--img src="images/thumbnail.jpg" alt="Trailer Thumbnail" class="thumbnail-img"-->
+                        <div class="play-button">▶ PLAY</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="flow-section">
+            <h2 class="section-title">WORK FLOW</h2>
+            <div class="workflow-container">
+                <div class="step">
+                    <span class="step-num">01</span>
+                    <h3>遺体の搬入と診断</h3>
+                    <p>安置所から遺体を選び、処置台へ。全身を観察し、痣や傷跡などの「異常」を記録する。</p>
+                </div>
+                <div class="step">
+                    <span class="step-num">02</span>
+                    <h3>防腐処理（エンバーミング）</h3>
+                    <p>顎を固定し、血管を切開。血液を抜き取り、防腐液を注入する。これは「日常」の業務だ。</p>
+                </div>
+                <div class="step">
+                    <span class="step-num">03</span>
+                    <h3>紋章（シジル）の探索</h3>
+                    <p>エンバーミングをしている最中に怪奇現象に遭遇することがある。「パーチメント（羊皮紙）」を手に館内を巡れ。悪魔が潜んでいる場所で、紙が燃え上がり紋章が浮かび上がる。</p>
+                </div>
+                <div class="step highlight">
+                    <span class="step-num">04</span>
+                    <h3>特定と焼却</h3>
+                    <p>見つけた紋章を組み合わせ、悪魔の名を特定せよ。そして、正しい遺体に「印」を置き、炉で焼き尽くせ。間違えれば、待っているのは"死"のみだ。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="characters" class="character-section">
+            <h2 class="section-title">CHARACTERS</h2>
+
+            <div class="char-card">
+                <div class="char-img">
+                    <img src="images/Characters/rebecca.jpg" alt="レベッカ・オーウェンズ">
+                    <div class="photo-label">PHOTO: REBECCA</div>
+                </div>
+                <div class="char-info">
+                    <h3>レベッカ・オーウェンズ<span>Rebecca Owens</span></h3>
+                    <p>本作の主人公。過去に薬物依存症に苦しんでいたが、現在は<br> 克服し、葬儀助手としての新たな人生を歩もうとしている。<br> 初出勤の夜に悪魔の呪縛に巻き込まれ、自身の過去のトラウマとも向き合うことになる。
+                    </p>
+                </div>
+            </div>
+
+            <div class="char-card reverse clickable" id="raymond-card">
+                <div class="char-img">
+                    <img src="images/Characters/raymond.jpg" alt="レイモンド・デルバー" id="raymond-img">
+                    <div class="photo-label">PHOTO: RAYMOND</div>
+                </div>
+                <div class="char-info">
+                    <h3 id="raymond-name">レイモンド・デルバー<span>Raymond Delver</span></h3>
+                    <p id="raymond-desc">
+                        リバー・フィールズ葬儀場のオーナー。レベッカの師であり、彼女をこの「仕事」に引き込んだ人物。
+                        悪魔の存在を熟知しており、自らも過去に悪魔との戦いを経験している。
+                        冷徹に見えるが、彼なりの方法でレベッカを守ろうとしている。
+                    </p>
+                </div>
+            </div>
+
+            <div class="char-card">
+                <div class="char-img">
+                    <img src="images/Characters/questionmark.jpg" alt="取り憑いた悪魔">
+                    <div class="photo-label">PHOTO: DEMON</div>
+                </div>
+                <div class="char-info">
+                    <h3>取り憑いた悪魔<span>The Demon</span></h3>
+                    <p>姿形を変え、幻覚を見せ、精神を蝕んでいく正体不明の存在。<br> 朝までにその名を特定し、正しい遺体と共に焼却しなければ、<br> レベッカの肉体は永遠に奪われてしまう。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="embalming" class="embalming-section">
+            <h2 class="section-title">EMBALMING PROCESS</h2>
+            <p class="process-desc">リバー・フィールズ葬儀場で行われる、標準的な防腐処理手順です。</p>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-header">STEP 01: 準備とチェック</div>
+                    <div class="step-body">
+                        <p>安置室から遺体を運び出し、処置台へ固定。不審な痣や傷がないか確認して、パソコンに入力してください。</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-header">STEP 02: 表情の固定</div>
+                    <div class="step-body">
+                        <p>ニードルガンで顎を固定し、アイキャップを使用して瞼を閉じます。</p>
+                    </div>
+                </div>
+                <div class="process-step highlight-step">
+                    <div class="step-header">STEP 03: 防腐液の調合</div>
+                    <div class="step-body">
+                        <p>ホルムアルデヒドを含む防腐液をポンプで調合します。<br><strong>※液体の中に「特殊な薬品」を入れるのを忘れないでください</strong></p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-header">STEP 04: 切開と注入</div>
+                    <div class="step-body">
+                        <p>頸動脈を切開し、管を挿入。血液を排出しながら防腐液を全身に循環させます。</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-header">STEP 05: 縫合と仕上げ</div>
+                    <div class="step-body">
+                        <p>すべての液体置換が完了したら、切開部位を縫合し、遺体を清潔にします。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="exorcism" class="exorcism-section">
+            <h2 class="section-title">EXORCISM PROCESS</h2>
+            <p class="process-desc">夜明けまでに" 悪魔 "を特定し、儀式を完遂させなければなりません。</p>
+
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-header">PHASE 01: 紋章（シジル）の探索</div>
+                    <div class="step-body">
+                        <p>「パーチメント(羊皮紙)」を手に館内を探索します。悪魔が潜んでいる場所で紙が燃え上がり、<br> 合計<strong>4つの紋章</strong>が浮かび上がります。</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-header">PHASE 02: 悪魔の名の特定</div>
+                    <div class="step-body">
+                        <p>回収した紋章をデータベースと照合します。一つでも間違えれば、儀式は逆効果となります。</p>
+                    </div>
+                </div>
+                <div class="process-step highlight-step">
+                    <div class="step-header">PHASE 03: 憑依体の選別</div>
+                    <div class="step-body">
+                        <p>3体の遺体のうち、どれに悪魔が潜んでいるか見極めます。<br> 遺体の表情や痣、傷跡に注意してください。</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-header">PHASE 04: 印（マーク）の設置</div>
+                    <div class="step-body">
+                        <p>特定した紋章を刻んだ「マーク」を遺体の上に設置します。<br> その際、取り憑いている悪魔が激しく抵抗するかもしれません。</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-header">PHASE 05: 焼却と封印</div>
+                    <div class="step-body">
+                        <p>遺体を火葬炉に入れ、点火します。正しければ悪魔は去り、朝を迎えることができるでしょう。</p>
+                        <p class="doom-text">もし...間違っていれば...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="possession" class="possession-section">
+            <h2 class="section-title">POSSESSION STATUS</h2>
+            <p class="process-desc">悪魔は常にあなたの肉体を狙っています。以下の兆候が現れた場合、完全な憑依まで残り時間はわずかです。</p>
+        
+            <div class="status-container">
+                <div class="possession-meter">
+                    <div class="meter-label">
+                        <span>POSSESSION LEVEL</span>
+                        <span id="possession-percent">?? %</span>
+                    </div>
+                    <div class="meter-bar">
+                        <div class="meter-fill" id="meter-fill"></div>
+                    </div>
+                </div>
+        
+                <div class="symptom-list">
+                    <div class="symptom-item">
+                        <span class="symptom-stage">STAGE 1</span>
+                        <h3>幻覚と幻聴</h3>
+                        <p>視界の端に何かが映る、あるいは自身の名を呼ぶ声が聞こえる。これはターゲットとしてマークされた初期段階です。</p>
+                    </div>
+                    <div class="symptom-item">
+                        <span class="symptom-stage">STAGE 2</span>
+                        <h3>身体的な異常</h3>
+                        <p>レベッカの肌に黒い痣や、身に覚えのない引っかき傷が現れる。悪魔が肉体への干渉を強めています。</p>
+                    </div>
+                    <div class="symptom-item danger">
+                        <span class="symptom-stage">FINAL STAGE</span>
+                        <h3>意識の消失</h3>
+                        <p>目の前が暗転し、気づくと別の場所に立っている。あるいは、自分の意志とは無関係にメスを握っている。これこそが完全な憑依の直前です。</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="possession-note">
+                <p><strong>警告：</strong> 憑依が100%に達する前に、正しい遺体を焼却しなければなりません。手遅れになれば、あなたの魂は永久に失われます。</p>
+            </div>
+        </section>
+
+        <section id="demons" class="demons-section">
+            <h2 class="section-title">IDENTIFIED ENTITIES</h2>
+            <p class="process-desc">これらは過去に記録された悪魔の真名です。すべての悪魔が特定されているわけではありません。</p>
+        
+            <div class="demon-grid">
+                <div class="demon-entry">
+                    <div class="demon-header">
+                        <h3>アバドン <span>Abaddon</span></h3>
+                    </div>
+                    <p>破壊を司る。周囲の物品を激しく投げ飛ばす、物理的なポルターガイスト現象が特徴。</p>
+                </div>
+        
+                <div class="demon-entry">
+                    <div class="demon-header">
+                        <h3>アザゼル <span>Azazel</span></h3>
+                    </div>
+                    <p>荒野の悪魔。鏡や窓の外から監視し、精神的な圧迫感を与える。</p>
+                </div>
+        
+                <div class="demon-entry">
+                    <div class="demon-header">
+                        <h3>バラム <span>Balam</span></h3>
+                    </div>
+                    <p>ささやきの主。死者の声や、聞き覚えのある人物の声を使って欺く。</p>
+                </div>
+        
+                <div class="demon-entry">
+                    <div class="demon-header">
+                        <h3>ルシフゲ <span>Lucifuge</span></h3>
+                    </div>
+                    <p>光を拒む者。照明を破壊し、完全な暗闇の中で獲物を追い詰める。</p>
+                </div>
+        
+                <div class="demon-entry">
+                    <div class="demon-header">
+                        <h3>マルパス <span>Malphas</span></h3>
+                    </div>
+                    <p>欺瞞の王。遺体の配置を勝手に変えたり、偽の紋章を見せたりして混乱を招く。</p>
+                </div>
+        
+                <div class="demon-entry">
+                    <div class="demon-header">
+                        <h3>ゼパル <span>Zepar</span></h3>
+                    </div>
+                    <p>執着の悪魔。一度狙った対象を執拗に追い回し、逃げ場をなくしていく。</p>
+                </div>
+            </div>
+        
+            <div class="sigil-guide">
+                <h3>HOW TO IDENTIFY</h3>
+                <p>名前そのものよりも、現場で見つかる<strong>「紋章（シジル）」の形状</strong>が重要です。4つの紋章を回収し、事務所のデータベースで照合することで、悪魔が確定します。</p>
+            </div>
+        </section>
+
+        <section id="endings" class="endings-section">
+            <h2 class="section-title">ENDINGS & DESTINY</h2>
+            <p class="process-desc">リバー・フィールズ葬儀場での夜は、あなたの選択によって異なる結末を迎えます。</p>
+        
+            <div class="endings-table-container">
+                <table class="endings-table">
+                    <thead>
+                        <tr>
+                            <th>結末</th>
+                            <th>解説</th>
+                            <th>到達条件</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="end-name">Body Burn</td>
+                            <td>標準的なエンディング。悪魔を追い払うことに成功するが、戦いは終わらない。</td>
+                            <td>正しい遺体に、正しい紋章（マーク）を置いて焼却する。</td>
+                        </tr>
+                        <tr>
+                            <td class="end-name">Possession</td>
+                            <td>最も一般的な失敗。レベッカは悪魔に肉体を完全に乗っ取られてしまう。</td>
+                            <td>「間違った遺体を焼く」「間違った紋章を置く」「時間がかかりすぎる」のいずれか。</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+                <details class="restricted-records">
+                    <summary class="restricted-btn">⚠️ [RESTRICTED ACCESS] 特殊業務記録を展開</summary>
+                    <table class="endings-table">
+                        <tbody>
+                            <tr>
+                                <td class="end-name">Closure</td>
+                                <td>レベッカが自身の過去と向き合い、トラウマを克服する真の救済。</td>
+                                <td>「5つのコイン」を集め、回想シーンの父に渡した上で正しく焼却。</td>
+                            </tr>
+                            <tr>
+                                <td class="end-name">Game Over</td>
+                                <td>レイモンドの期待を裏切り、最悪の形で命を落とす。</td>
+                                <td>全ての処置を終える前に、早まって空の火葬炉を点火する。</td>
+                            </tr>
+                            <tr>
+                                <td class="end-name">Basement</td>
+                                <td>この葬儀場の「本当の秘密」に触れてしまう。</td>
+                                <td>地下室の隠し扉を開け、奥にある「何か」を目撃してから正しく焼却。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <section class="steam-link-section">
+        <div class="steam-card">
+            <div class="steam-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40">
+                    <path
+                        d="M12 .3a12 12 0 0 0-1.7 23.9c.4.1.5-.1.5-.4v-1.4c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.4-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.7.1 3.1.8.8 1.2 1.9 1.2 3.2 0 4.7-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.1.5.6.4A12 12 0 0 0 12 .3z" />
+                </svg>
+            </div>
+            <div class="steam-info">
+                <h3>EXPERIENCE THE HORROR</h3>
+                <p>この惨劇を、あなたの手で終わらせるか。あるいは、飲み込まれるか。</p>
+            </div>
+            <a href="https://store.steampowered.com/app/1295920/The_Mortuary_Assistant/" target="_blank" rel="noopener"
+                class="steam-button">
+                AVAILABLE ON STEAM
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">RIVER FIELDS MORTUARY</div>
+            <p class="staff-id">Logged in as: REBECCA_O (Assistant)</p>
+            <div class="footer-links">
+                <a href="#top">TOP</a>
+                <a href="#story">STORY</a>
+                <a href="#characters">CHARACTERS</a>
+            </div>
+            <p class="copyright">&copy; 2026 River Fields Mortuary - Official Documentation</p>
+            <p class="footer-warning">Unauthorized access to these records is a violation of state law.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
